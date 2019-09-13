@@ -52,6 +52,7 @@ span{
   font-weight: bold ;
   font-style: italic;
   text-shadow: -3px -2px 2px black ;
+  z-index: 1; 
 }
 
 .layover{
@@ -62,6 +63,12 @@ span{
   height: 100%;
   background: rgb(0, 0, 0, 0.3);
 }
+
+.container:hover .layover{
+  display: none;
+}
+
+
 
 
 
