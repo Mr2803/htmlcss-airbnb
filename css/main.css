@@ -1,0 +1,43 @@
+body{
+  background-color: #1D2D3C
+}
+
+*{
+  margin: auto;
+  box-sizing: border-box;
+
+
+}
+
+
+.global{
+  width: 400px;
+  height: 100vh;
+  background-color: white;
+  position: relative;
+
+}
+
+.container{
+  width: 390px;
+  height: 300px;
+  position: absolute;
+  margin:5px;
+  box-sizing: border-box;
+}
+
+.container.uno{
+  background: url(../img/roma1.jpg);
+
+}
+
+.container.due{
+  bottom:309px;
+  background-color: red
+
+}
+
+.container.tre{
+  background-color: green;
+  bottom:0;
+}
