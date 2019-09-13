@@ -17,27 +17,39 @@ body{
 
 /* regole generali container */
 .container{
-  width: 100%;
-  height: 33%;
+  width: 90%;
+  height: 32%;
   position: absolute;
+  margin:0;
+
 }
 /* |regole generali container */
 
 
-
+/* sezione immagini */
 .container.uno{
   background: url(../img/roma.jpg);
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+
 }
 
 .container.due{
-  bottom:33%;
   background: url(../img/copenaghen.jpg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .container.tre{
  background: url(../img/tokyo.jpg);
-  bottom:0;
+ bottom: 0%;
+ left: 50%;
+ transform: translate(-50%, -0%);
 }
+
+/* |sezione immagini */
 
 span{
   position: absolute;
