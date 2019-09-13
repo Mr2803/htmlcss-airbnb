@@ -21,6 +21,7 @@ box-sizing: border-box;
   width: 96%;
   height: 32%;
   position:relative;
+  cursor:url(../img/plane.cur), auto;
 }
 /* |regole generali container */
 
