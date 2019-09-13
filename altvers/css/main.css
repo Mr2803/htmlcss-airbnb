@@ -64,8 +64,6 @@ span{
   background: rgb(0, 0, 0, 0.3);
 }
 
-
-
 .container:hover .layover{
   display: none;
 }
@@ -76,7 +74,10 @@ span{
 }
 
 
-
+.zoom:hover span{
+  font-size: 45px;
+  transition: 0.2s;
+}
 
 
 
