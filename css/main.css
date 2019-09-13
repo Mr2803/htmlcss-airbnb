@@ -19,14 +19,77 @@ body{
 .container{
   width: 90%;
   height: 32%;
-  position: absolute;
-  margin:0px;
+  
+  margin: 5px;
+  position:relative;
 
 }
 /* |regole generali container */
 
 
 /* sezione immagini */
+.container.uno{
+  background: url(../img/roma.jpg);
+
+
+
+}
+
+.container.due{
+  background: url(../img/copenaghen.jpg);
+
+
+}
+
+.container.tre{
+ background: url(../img/tokyo.jpg);
+
+
+}
+
+/* |sezione immagini */
+
+span{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color:white;
+font-size: 40px;
+font-weight: bold italic;
+}
+
+
+
+
+
+/*
+body{
+  background-color: #1D2D3C
+}
+
+*{
+  margin:auto;
+}
+
+
+.global{
+  width: 400px;
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
+
+
+
+.container{
+  width: 90%;
+  height: 32%;
+  position: absolute;
+  margin:0px;
+
+}
+
 .container.uno{
   background: url(../img/roma.jpg);
   top: 1%;
@@ -49,7 +112,7 @@ body{
  transform: translate(-50%, 0%);
 }
 
-/* |sezione immagini */
+
 
 span{
   position: absolute;
@@ -60,3 +123,4 @@ color:white;
 font-size: 40px;
 font-weight: bold italic;
 }
+*/
