@@ -64,14 +64,17 @@ span{
   background: rgb(0, 0, 0, 0.3);
 }
 
+
+
 .container:hover .layover{
   display: none;
 }
 
-.zoom:hover{
+.rotate:hover{
   transform: rotate(1deg);
-
+  transition: 0.9s;
 }
+
 
 
 
