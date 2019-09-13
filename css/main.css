@@ -4,7 +4,7 @@ body{
 
 *{
   margin: auto;
-  box-sizing: border-box;
+   box-sizing: border-box;
 
 
 }
@@ -16,28 +16,42 @@ body{
   background-color: white;
   position: relative;
 
+
 }
 
 .container{
-  width: 390px;
-  height: 300px;
+  width: 100%;
+  height: 33%;
   position: absolute;
-  margin:5px;
-  box-sizing: border-box;
+  margin:auto;
+
+
 }
 
 .container.uno{
-  background: url(../img/roma1.jpg);
+  background: url(../img/roma.jpg);
+  
+
 
 }
 
 .container.due{
-  bottom:309px;
-  background-color: red
+  bottom:33%;
+  background: url(../img/copenaghen.jpg);
 
 }
 
 .container.tre{
-  background-color: green;
+ background: url(../img/tokyo.jpg);
   bottom:0;
+}
+
+span{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color:white;
+font-size: 40px;
+font-weight: bold italic;
 }
