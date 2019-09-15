@@ -24,7 +24,6 @@ div{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: inline-block;
 }
 
 img{
@@ -85,6 +84,7 @@ div.bottomcentral{
   bottom: 0%;
   right: 100%;
   transform: translate(-50%, 150%);
+
 }
 
 div.centerleft{
@@ -132,8 +132,13 @@ section.layover{
   display: none;
 }
 
+.hover:hover img{
+  position: absolute;
+  bottom: 5px;
+}
+
 .zoom:hover span{
   font-size: 47px;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 /* |Effetti */
