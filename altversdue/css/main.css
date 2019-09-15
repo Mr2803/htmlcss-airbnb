@@ -14,8 +14,6 @@ body{
   font-family:"alexbrush";
 }
 
-
-
 div{
   background: #1D2D3C;;
   width:90vw;
@@ -26,12 +24,9 @@ div{
   left: 50%;
   transform: translate(-50%, -50%);
   display: inline-block;
-
-
 }
 
 img{
-
   width: 100%;
   height: 100%;
 }
@@ -64,99 +59,66 @@ left: 50%;
 transform: translate(-50%, -50%);
 font-size: 40px;
 color: white;
+text-shadow: -3px -2px 2px black ;
 }
 
 span.central{
   font-size: 60px;
 }
 
+div.topleft, div.topright, div.topcentral, div.bottomleft, div.bottomright, div.bottomcentral, div.centerleft, div.centerright, div.centerleft ,div.centerright{
+  width: 21%;
+  height: 20%;
+}
 
 div.topleft{
   top: 0;
   left: 0;
   transform: translate(-0%, -0%);
-  width: 20%;
-  height: 20%;
-  position: relative;
-
 }
-
-
-
 
 div.topright{
   top: 0%;
   right: 0%;
   transform: translate(150%, -0%);
-  background: white;
-  width: 20%;
-  height: 20%;
-
-
 }
 
 div.topcentral{
   top: 0%;
   right: 100%;
   transform: translate(-50%, -0%);
-  background: white;
-  width: 20%;
-  height: 20%;
-
-
 }
 
 div.bottomleft{
   bottom: 0%;
   left: 0%;
   transform: translate(-0%, 150%);
-  background: white;
-  width: 20%;
-  height: 20%;
-
-
 }
 
 div.bottomright{
   bottom: 0%;
   right: 0%;
   transform: translate(150%, 150%);
-  background: white;
-  width: 20%;
-  height: 20%;
-
-
 }
 
 div.bottomcentral{
   bottom: 0%;
   right: 100%;
   transform: translate(-50%, 150%);
-  background: white;
-  width: 20%;
-  height: 20%;
-
-
 }
 
 div.centerleft{
   top: 50%;
   left: 0%;
   transform: translate(-0%, -50%);
-  background: yellow;
-  width: 20%;
-  height: 20%;
-
-
 }
 
 div.centerright{
   top: 50%;
   right: 0%;
   transform: translate(150%, -50%);
-  background: brown;
-  width: 20%;
-  height: 20%;
+}
 
-
+section.layover:hover{
+  display: none;
 }
