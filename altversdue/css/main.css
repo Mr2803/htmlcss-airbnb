@@ -39,6 +39,7 @@ div.topleft{
   z-index: 1;
 
 }
+
 div.topright{
   top: 0%;
   right: 0%;
@@ -54,6 +55,39 @@ div.topcentral{
   top: 0%;
   right: 100%;
   transform: translate(-50%, -0%);
+  background: white;
+  width: 20%;
+  height: 20%;
+  z-index: 1;
+
+}
+
+div.bottomleft{
+  bottom: 0%;
+  left: 0%;
+  transform: translate(-0%, 150%);
+  background: white;
+  width: 20%;
+  height: 20%;
+  z-index: 1;
+
+}
+
+div.bottomright{
+  bottom: 0%;
+  right: 0%;
+  transform: translate(150%, 150%);
+  background: white;
+  width: 20%;
+  height: 20%;
+  z-index: 1;
+
+}
+
+div.bottomcentral{
+  bottom: 0%;
+  right: 100%;
+  transform: translate(-50%, 150%);
   background: white;
   width: 20%;
   height: 20%;
