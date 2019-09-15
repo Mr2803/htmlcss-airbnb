@@ -11,16 +11,13 @@ body{
 }
 
 *{
-  font-family:"alexbrush"
+  font-family:"alexbrush";
 }
 
 
 
 div{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background: #1D2D3C;
+  background: #1D2D3C;;
   width:90vw;
   height: 90vh;
   position: relative;
@@ -28,14 +25,27 @@ div{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
+  display: inline-block;
+
 
 }
 
 img{
+
   width: 100%;
   height: 100%;
 }
+
+section.layover{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.6);
+}
+
+
 
 div.central{
   top: 50%;
@@ -62,13 +72,14 @@ span.central{
 
 
 div.topleft{
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
   transform: translate(-0%, -0%);
   width: 20%;
   height: 20%;
-}
+  position: relative;
 
+}
 
 
 
