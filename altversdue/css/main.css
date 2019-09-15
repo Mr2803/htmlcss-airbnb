@@ -128,12 +128,12 @@ section.layover{
 /* |Sezione Layover*/
 
 /* Effetti */
-section.layover:hover{
+.hover:hover section{
   display: none;
 }
 
-div.zoom:hover span{
-  font-size: 50px;
+.zoom:hover span{
+  font-size: 47px;
   transition: 0.2s;
 }
 /* |Effetti */
