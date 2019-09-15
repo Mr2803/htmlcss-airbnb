@@ -32,6 +32,11 @@ div{
 
 }
 
+img{
+  width: 100%;
+  height: 100%;
+}
+
 div.central{
   top: 50%;
   left: 50%;
@@ -49,20 +54,17 @@ left: 50%;
 transform: translate(-50%, -50%);
 font-size: 60px;
 color: white;
-
-
-
 }
 
 div.topleft{
   top: 0%;
   left: 0%;
   transform: translate(-0%, -0%);
-  background-image: url(../../img/roma.jpg);
   width: 20%;
   height: 20%;
-  
 }
+
+
 
 div.topright{
   top: 0%;
