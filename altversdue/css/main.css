@@ -68,7 +68,7 @@ span.central{
 
 div.topleft, div.topright, div.topcentral, div.bottomleft, div.bottomright, div.bottomcentral, div.centerleft, div.centerright, div.centerleft ,div.centerright{
   width: 21%;
-  height: 20%;
+  height: 21%;
 }
 
 div.topleft{
@@ -121,4 +121,10 @@ div.centerright{
 
 section.layover:hover{
   display: none;
+}
+
+div.zoom:hover span{
+  font-size: 45px;
+  transition: 0.2s;
+
 }
