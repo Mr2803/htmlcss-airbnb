@@ -94,3 +94,25 @@ div.bottomcentral{
   z-index: 1;
 
 }
+
+div.centerleft{
+  top: 50%;
+  left: 0%;
+  transform: translate(-0%, -50%);
+  background: yellow;
+  width: 20%;
+  height: 20%;
+  z-index: 1;
+
+}
+
+div.centerright{
+  top: 50%;
+  right: 0%;
+  transform: translate(150%, -50%);
+  background: brown;
+  width: 20%;
+  height: 20%;
+  z-index: 1;
+
+}
