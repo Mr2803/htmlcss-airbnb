@@ -1,21 +1,34 @@
 body{
-  background: red;
+  background: #1D2D3C;
+}
 
+@font-face {
+  font-family: "alexbrush";
+  src: url(../font/alexbrush.ttf) format("truetype");
+  /*font-family: "kaushan";
+  src:url(../font/kaushan.otf) format("truetype");*/
 
 }
+
+*{
+  font-family:"alexbrush"
+}
+
+
 
 div{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: green;
+  background: #1D2D3C;
   width:90vw;
   height: 90vh;
- position: relative;
+  position: relative;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 1;
 
 }
 
@@ -23,21 +36,32 @@ div.central{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: white;
+  background: #1D2D3C;
   width: 30%;
   height: 30%;
-  z-index: 1;
+
+}
+
+span.central{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 60px;
+color: white;
+
+
+
 }
 
 div.topleft{
   top: 0%;
   left: 0%;
   transform: translate(-0%, -0%);
-  background: white;
+  background-image: url(../../img/roma.jpg);
   width: 20%;
   height: 20%;
-  z-index: 1;
-
+  
 }
 
 div.topright{
@@ -47,7 +71,7 @@ div.topright{
   background: white;
   width: 20%;
   height: 20%;
-  z-index: 1;
+
 
 }
 
@@ -58,7 +82,7 @@ div.topcentral{
   background: white;
   width: 20%;
   height: 20%;
-  z-index: 1;
+
 
 }
 
@@ -69,7 +93,7 @@ div.bottomleft{
   background: white;
   width: 20%;
   height: 20%;
-  z-index: 1;
+
 
 }
 
@@ -80,7 +104,7 @@ div.bottomright{
   background: white;
   width: 20%;
   height: 20%;
-  z-index: 1;
+
 
 }
 
@@ -91,7 +115,7 @@ div.bottomcentral{
   background: white;
   width: 20%;
   height: 20%;
-  z-index: 1;
+
 
 }
 
@@ -102,7 +126,7 @@ div.centerleft{
   background: yellow;
   width: 20%;
   height: 20%;
-  z-index: 1;
+
 
 }
 
@@ -113,6 +137,6 @@ div.centerright{
   background: brown;
   width: 20%;
   height: 20%;
-  z-index: 1;
+
 
 }
