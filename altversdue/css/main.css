@@ -1,3 +1,4 @@
+/* Regole generali */
 body{
   background: #1D2D3C;
 }
@@ -7,11 +8,11 @@ body{
   src: url(../font/alexbrush.ttf) format("truetype");
   /*font-family: "kaushan";
   src:url(../font/kaushan.otf) format("truetype");*/
-
 }
 
 *{
   font-family:"alexbrush";
+  text-shadow: -3px -2px 2px black ;
 }
 
 div{
@@ -30,18 +31,9 @@ img{
   width: 100%;
   height: 100%;
 }
+/* |Fine regole generali */
 
-section.layover{
-  position: absolute;
-  top:0;
-  left:0;
-  width: 100%;
-  height: 100%;
-  background: rgb(0, 0, 0, 0.6);
-}
-
-
-
+/* Contenitore centrale */
 div.central{
   top: 50%;
   left: 50%;
@@ -49,22 +41,10 @@ div.central{
   background: #1D2D3C;
   width: 30%;
   height: 30%;
-
 }
+/* |Contenitore centrale */
 
-span{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-font-size: 40px;
-color: white;
-text-shadow: -3px -2px 2px black ;
-}
-
-span.central{
-  font-size: 60px;
-}
+/* Contenitori città */
 
 div.topleft, div.topright, div.topcentral, div.bottomleft, div.bottomright, div.bottomcentral, div.centerleft, div.centerright, div.centerleft ,div.centerright{
   width: 21%;
@@ -118,13 +98,42 @@ div.centerright{
   right: 0%;
   transform: translate(150%, -50%);
 }
+/* |Contenitori città */
 
+/* Nomi città */
+span{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 40px;
+color: white;
+z-index: 1;
+}
+
+span.central{
+  font-size: 60px;
+}
+/* |Nomi città */
+
+/* Sezione Layover*/
+section.layover{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.6);
+}
+/* |Sezione Layover*/
+
+/* Effetti */
 section.layover:hover{
   display: none;
 }
 
 div.zoom:hover span{
-  font-size: 45px;
+  font-size: 50px;
   transition: 0.2s;
-
 }
+/* |Effetti */
